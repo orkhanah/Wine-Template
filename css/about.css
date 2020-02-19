@@ -1,0 +1,244 @@
+*::selection{
+    background:black;
+    color: white;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F8F9FA;
+}
+
+.topContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.sectionNames {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.navContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.sectionNames li {
+    font-family: 'Cinzel', serif;
+    padding-right: 40px;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.stickyNav {
+    padding-top: 35px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.headerTop {
+    background-color: #fff;
+    display: initial;
+}
+
+.sectionNames a {
+    text-decoration: none;
+    color: #000;
+}
+
+.sectionNames a:hover {
+    color: #930077;
+}
+
+.secondHeader {
+    position: relative;
+}
+
+.secondHeadContainer {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.secondTexts {
+    position: absolute;
+    left: 35%;
+    top: 35%;
+}
+
+.secondTexts h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.secondTexts span {
+    font-family: 'Cinzel', serif;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    opacity: .3;
+}
+
+.howWeStarted {
+    padding: 100px 0;
+    background-color: white;
+}
+
+.startContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.startText h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 300;
+}
+
+.startText p {
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+    line-height: 27px;
+    color: #808080;
+}
+
+.image {
+    margin-right: 150px;
+}
+
+.videoSection {
+    padding: 100px 0;
+    background-color: #F8F9FA;
+}
+
+.videoContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.videoText h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 300;
+}
+
+.videoText p {
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+    line-height: 27px;
+    color: #808080;
+}
+
+.video {
+    margin-left: 150px;
+    position: relative;
+}
+
+.shippingText h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 300;
+}
+
+.shippingText p {
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+    line-height: 27px;
+    color: #808080;
+}
+
+.shippingChances {
+    display: flex;
+    margin-right: 50px;
+}
+
+.icon {
+    font-size: 40px;
+    transform: rotateY(180deg);
+    margin-right: 30px;
+    margin-top: 20px;
+    color: #930077;
+}
+
+.shippingContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.shipping {
+    padding: 70px 0;
+    background-color: white;
+}
+
+.review p {
+    font-family: 'Cinzel', serif;
+}
+
+.review {
+    text-align: center;
+    margin-right: 30px;
+}
+
+.reviewsContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.reviews {
+    padding: 150px 0;
+}
+
+.footer {
+    padding: 100px 0;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+}
+
+.socialFooter i {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.socialFooter a {
+    width: 45px;
+    display: inline-block;
+    height: 45px;
+    border-radius: 50%;
+    background: #930077;
+    transition: .4s;
+    top: 0;
+    position: relative;
+}
+
+.socialFooter {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.socialFooter a:hover {
+    background: black;
+    top:-10px
+}
